@@ -1,2 +1,3 @@
-# Milestone-Project-1
-Milestone project 1 of 2020 Complete Python Bootcamp: From Zero to Hero in Python
+# Destiny Average Grind Calculator
+Script to help quickly calculate the maximum average power level a player can grind to without using powerful sources 
+while taking into account the power level of their current items.
