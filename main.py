@@ -3,7 +3,7 @@
 
 # Declaring variables
 powerfulcap = 1250
-inputgear = [1236, 1240, 1240, 1216, 1215, 1209, 1215, 1214]
+inputgear = [1251, 1251, 1252, 1238, 1241, 1239, 1241, 1242]
 
 
 # Function that will average a passed gear list, then make a new list with every piece under the average brought up to
@@ -33,4 +33,4 @@ else:
         if int((sum(updatedgear) / 8)) == powerfulcap:
             break
         updatedgear = averagegear(updatedgear)
-    print(f"The max power you can hit with your current list is {int((sum(updatedgear) / 8))}")
+    print(f"The max power you can hit with your current gear is {int((sum(updatedgear) / 8))}")
